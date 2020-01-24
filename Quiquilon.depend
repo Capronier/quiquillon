@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1579886819 source:c:\users\yann\synologydrive\cours\2019-2020\autre\jeu_vidéal\programmatiob\quiquilon\main.cpp
+	<iostream>
+	<fstream>
+
+1579887845 source:c:\users\yann\synologydrive\cours\2019-2020\autre\jeu_vidéal\programmatiob\quiquilon\src\map.cpp
+	"map.h"
+
+1579887845 c:\users\yann\synologydrive\cours\2019-2020\autre\jeu_vidéal\programmatiob\quiquilon\include\map.h
+
