@@ -1,9 +1,9 @@
 #ifndef __Desert__H
 #define __Desert__H
-#include "mapi.hh"
+#include "land.hh"
 
 
-class Desert : public Mapi{
+class Desert : public Land{
 public:
 	Desert(){};
 	~Desert(){};

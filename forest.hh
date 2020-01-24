@@ -1,9 +1,9 @@
 #ifndef __forest__H
 #define __forest__H
-#include "mapi.hh"
+#include "land.hh"
 
 
-class forest : public Mapi{
+class forest : public Land{
 public:
 	forest(){};
 	~forest(){};

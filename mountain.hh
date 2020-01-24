@@ -1,9 +1,9 @@
 #ifndef __Mountain__H
 #define __Mountain__H
-#include "mapi.hh"
+#include "land.hh"
 
 
-class Mountain: public Mapi{
+class Mountain: public Land{
 public:
 	Mountain(){};
 	~Mountain(){};

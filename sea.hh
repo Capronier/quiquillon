@@ -1,9 +1,9 @@
 #ifndef __Sea__H
 #define __Sea__H
-#include "mapi.hh"
+#include "land.hh"
 
 
-class Sea : public Mapi{
+class Sea : public Land{
 public:
 	Sea(){};
 	~Sea(){};

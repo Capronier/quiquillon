@@ -6,7 +6,7 @@ Etape 1 Construction de la map aléatoire
 Les fichiers du projet:
     main.cc : Un programme principal avec le main
     Makefile : permet de compiler le programme avec la commande make ou make all (supprime en plus les .o créé à l'issus de la compilation)
-    mapi.hh : classe virtuelle représentant l'ensemble de la map
+    land.hh : classe virtuelle représentant l'ensemble de la map
     	beach.hh: classe fille de mapi,
     	city.hh: classe fille de mapi,
     	desert.hh: classe fille de mapi, classe virtuelle,
@@ -16,6 +16,7 @@ Les fichiers du projet:
     	mountain.hh: classe fille de mapi,
     	plain.hh: classe fille de mapi,
     	sea.hh : classe fille de mapi,
+    mapi.hh : permet d'avoir l'ensemble des land
 
 
 Commande git pratique:

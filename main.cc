@@ -2,7 +2,9 @@
 //#include "SDL.h"
 #include <stdio.h>
 #include "mapi.hh"
-#include "mapi.hh"
+
+#include "land.hh"
+
 #include "beach.hh"
 #include "city.hh"
 #include "desert.hh"
@@ -12,16 +14,21 @@
 #include "mountain.hh"
 #include "plain.hh"
 #include "sea.hh"
-    	
+
 
 int main()
 {
 	srand(time(NULL));
 	std::cout<<"programme en cours de création"<<std::endl;
 	
-	Plain p;
+	Mapi m;
+	
 
-	std::cout<<p.haveType()<<std::endl;
+	m+=new Plain;
+	m+=new Sand;
+	
+	std::cout<<m<<std::endl;
+	
 
 
 	return 0;

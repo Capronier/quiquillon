@@ -1,9 +1,9 @@
 #ifndef __City__H
 #define __City__H
-#include "mapi.hh"
+#include "land.hh"
 
 
-class City : public Mapi{
+class City : public Land{
 public:
 	City(){};
 	~City(){};
